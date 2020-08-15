@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be4de805-f1a6-4d35-859f-7ce12e4ed6be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/nure/lytovchenko/task3/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/nure/lytovchenko/task3/Part2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aD7Yi8lhBibHeBcLT6YAF4HaRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java projects\Task3" />
+      <recent name="F:\Java projects\Task3\src\ua\nure\lytovchenko\task3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Part2">
+    <configuration name="Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part1" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part2" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part4" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Util" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Part2" />
+        <item itemvalue="Application.Part1" />
+        <item itemvalue="Application.Part4" />
+        <item itemvalue="Application.Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\jeakm\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Java projects\Task3" />
+          <option name="myCopyRoot" value="F:\Java projects\Task3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Java projects\Task3" />
+          <option name="myCopyRoot" value="F:\Java projects\Task3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be4de805-f1a6-4d35-859f-7ce12e4ed6be" name="Default Changelist" comment="" />
+      <created>1586258359995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586258359995</updated>
+      <workItem from="1586258370072" duration="2418000" />
+      <workItem from="1586260807049" duration="9127000" />
+      <workItem from="1586508389181" duration="2479000" />
+      <workItem from="1586520043563" duration="5547000" />
+    </task>
+    <task id="LOCAL-00001" summary="JFI-605&#10;Task3">
+      <created>1586521790418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586521790418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JFI-605&#10;Task3">
+      <created>1586522498864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522498864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JFI-605&#10;Task3">
+      <created>1586522765005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522765005</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JFI-605&#10;Task3">
+      <created>1586522895590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522895590</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JFI-605&#10;Task3">
+      <created>1586524149707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524149707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JFI-605&#10;Task3">
+      <created>1586524486524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524486524</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JFI-605&#10;Task3">
+      <created>1586524781059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524781059</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JFI-605&#10;Task3">
+      <created>1586524952471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524952471</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JFI-605&#10;Task3">
+      <created>1586525329951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586525329951</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JFI-605&#10;Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JFI-605&#10;Task3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586521561546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586521561546" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1586526527451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586526527451" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1586526510900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586526510900" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1586526510900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586526510900" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1586526510900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586526510900" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1586526510900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586526510900" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586520043048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586520043048" />
+    <state x="599" y="203" width="414" height="621" key="svn.repositoryBrowser" timestamp="1586521719007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="203" width="414" height="621" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1586521719007" />
+    <state x="591" y="317" key="svn.upgradeDialog" timestamp="1586521720424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="317" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1586521720424" />
+  </component>
+</project>

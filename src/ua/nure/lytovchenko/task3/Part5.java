@@ -1,0 +1,51 @@
+package ua.nure.lytovchenko.task3;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Part5 {
+    private static final int[] ARABIC = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+    private static final String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    private static final int COUNT = 9;
+    private static final int HUNDRED = 100;
+
+    public static String decimal2Roman(int x) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < COUNT; i++) {
+            for (int j = 0; j < x / ARABIC[i]; j++) {
+                result.append(ROMAN[i]);
+            }
+            x %= ARABIC[i];
+        }
+        return result.toString();
+    }
+
+    public static int roman2Decimal(String s) {
+        int res = 0;
+        s += "I";
+        String nums = "C100,L50,X10,V5,I1,";
+        for (int i = 0; i < s.length() - 1; i++) {
+            Pattern pattern = Pattern.compile(s.charAt(i) + "(\\w+)");
+            Matcher matcher = pattern.matcher(nums);
+            matcher.find();
+            String num1 = matcher.group(1);
+            pattern = Pattern.compile(s.charAt(i + 1) + "(\\w+)");
+            matcher = pattern.matcher(nums);
+            matcher.find();
+            String num2 = matcher.group(1);
+            if (Integer.valueOf(num1) >= Integer.valueOf(num2)) {
+                res += Integer.parseInt(num1);
+            } else {
+                res -= Integer.parseInt(num1);
+            }
+            matcher.reset();
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i <= HUNDRED; i++) {
+            System.out.println(i + " --> " + decimal2Roman(i) + " --> " + roman2Decimal(decimal2Roman(i)));
+        }
+    }
+}

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be4de805-f1a6-4d35-859f-7ce12e4ed6be" name="Default Changelist" comment="JFI-605&#10;Task3">
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/PetProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Controllers/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/DAO/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/DAO/CategoryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/DAO/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/DAO/ItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Services/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/java/nure/lytovchenko/Services/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/application-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/images/pict.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/Categories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/CategoryEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/ItemCard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/ItemEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/Items.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/addCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/addItem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/PetProject/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/META-INF/PetProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Controllers/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/DAO/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/DAO/CategoryDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/DAO/ItemDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/DAO/ItemDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Models/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Models/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Services/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/classes/nure/lytovchenko/Services/ItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/application-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/META-INF/PetProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Controllers/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/DAO/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/DAO/CategoryDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/DAO/ItemDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/DAO/ItemDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Models/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Models/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Services/ItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/classes/nure/lytovchenko/Services/ItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/images/pict.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/byte-buddy-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/hibernate-core-5.4.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-jdbc-5.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-orm-5.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-tx-5.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/Categories.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/ItemCard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/ItemEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/Items.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/addCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/addItem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PetProject/target/mvc_html5_angular-1.0/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Part4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Task3/ua/nure/lytovchenko/task3/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetBargainBot" beforeDir="false" afterPath="$PROJECT_DIR$/../GetBargainBot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/part3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/nure/lytovchenko/task3/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/nure/lytovchenko/task3/Part1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aD7Yi8lhBibHeBcLT6YAF4HaRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java projects\Task3" />
+      <recent name="F:\Java projects\Task3\src\ua\nure\lytovchenko\task3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.trye">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Demo" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part2" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part3" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.nure.lytovchenko.task3.Part5" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.lytovchenko.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trye" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trye" />
+      <module name="Task3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.trye" />
+        <item itemvalue="Application.Part3" />
+        <item itemvalue="Application.Part5" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Part2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\jeakm\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Java projects\Task3" />
+          <option name="myCopyRoot" value="F:\Java projects\Task3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\Java projects\Task3" />
+          <option name="myCopyRoot" value="F:\Java projects\Task3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be4de805-f1a6-4d35-859f-7ce12e4ed6be" name="Default Changelist" comment="" />
+      <created>1586258359995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586258359995</updated>
+      <workItem from="1586258370072" duration="2418000" />
+      <workItem from="1586260807049" duration="9127000" />
+      <workItem from="1586508389181" duration="2479000" />
+      <workItem from="1586520043563" duration="6698000" />
+      <workItem from="1586878735240" duration="29000" />
+      <workItem from="1587155289485" duration="291000" />
+      <workItem from="1587223208668" duration="1655000" />
+      <workItem from="1587550163762" duration="63000" />
+      <workItem from="1588248298363" duration="1382000" />
+      <workItem from="1588672801529" duration="613000" />
+      <workItem from="1588785683288" duration="143000" />
+      <workItem from="1588866825752" duration="128000" />
+      <workItem from="1589550500803" duration="86000" />
+      <workItem from="1589556890247" duration="166000" />
+      <workItem from="1589723063631" duration="73000" />
+      <workItem from="1589831089411" duration="13000" />
+      <workItem from="1597529308139" duration="20000" />
+    </task>
+    <task id="LOCAL-00001" summary="JFI-605&#10;Task3">
+      <created>1586521790418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586521790418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JFI-605&#10;Task3">
+      <created>1586522498864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522498864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JFI-605&#10;Task3">
+      <created>1586522765005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522765005</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JFI-605&#10;Task3">
+      <created>1586522895590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522895590</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JFI-605&#10;Task3">
+      <created>1586524149707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524149707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JFI-605&#10;Task3">
+      <created>1586524486524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524486524</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JFI-605&#10;Task3">
+      <created>1586524781059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524781059</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JFI-605&#10;Task3">
+      <created>1586524952471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586524952471</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JFI-605&#10;Task3">
+      <created>1586525329951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586525329951</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JFI-605&#10;Task3">
+      <created>1586526532145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586526532145</updated>
+    </task>
+    <task id="LOCAL-00011" summary="JFI-605&#10;Task3">
+      <created>1586526594424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586526594424</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JFI-605&#10;Task3">
+      <created>1587224231852</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587224231852</updated>
+    </task>
+    <task id="LOCAL-00013" summary="JFI-605&#10;Task3">
+      <created>1587224543320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587224543320</updated>
+    </task>
+    <task id="LOCAL-00014" summary="JFI-605&#10;Task3">
+      <created>1587224674122</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587224674122</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JFI-605&#10;Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JFI-605&#10;Task3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586521561546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586521561546" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587224096275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587224096275" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1587224672645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587224672645" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1588866949301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588866949301" />
+    <state width="1493" height="128" key="GridCell.Tab.0.bottom" timestamp="1588785825901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588785825901" />
+    <state width="1493" height="128" key="GridCell.Tab.0.center" timestamp="1588785825901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="128" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588785825901" />
+    <state width="1493" height="128" key="GridCell.Tab.0.left" timestamp="1588785825901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="128" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588785825901" />
+    <state width="1493" height="128" key="GridCell.Tab.0.right" timestamp="1588785825901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="128" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588785825901" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588866839587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588866839587" />
+    <state x="209" y="33" key="new project wizard" timestamp="1588866951066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588866951066" />
+    <state x="599" y="203" width="414" height="621" key="svn.repositoryBrowser" timestamp="1586521719007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="203" width="414" height="621" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1586521719007" />
+    <state x="591" y="317" key="svn.upgradeDialog" timestamp="1586521720424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="317" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1586521720424" />
+  </component>
+</project>
